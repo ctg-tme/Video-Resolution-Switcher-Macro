@@ -39,7 +39,7 @@ This solution was built primarily for testing different combinations of input an
 - Discovers available outputs available using [xConfiguration Video Output Connector[N] Resolution](https://roomos.cisco.com/xapi/Configuration.Video.Output.Connector[1..3].Resolution/) and render a row per output
     - Discovers the current values available to the output based on its Resolution configuration
 
-[![Output Resolution Page](/images/output_selection.png)](#)
+[![Output Resolution Page](images/output_selection.png)](#)
 
 - Tracks changes in Video Input and Output Config
     - This is to ensure the User Feedback is always up to date
