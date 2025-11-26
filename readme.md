@@ -4,6 +4,27 @@ This macro generates a UI Extensions on the fly that enables changing of the Vid
 
 This solution was built primarily for testing different combinations of input and output resolutions so it's best not to roll out for general use throughout an organization, though some broadcasting use cases may benefit from this.
 
+## Details
+
+| Tested RoomOs Version  | Webex Cloud | Webex Edge (Hybrid Cloud) | On-Premise | Microsoft Teams Room<br>On Cisco Devices |
+|:-----------------------|:------------|:--------------------------|:-----------|:-----------------------------------------|
+| 26.1.1                 | ✅          | ✅                        | ✅          | ✅                                       |
+
+### Tested Endpoints
+- Room Bar Pro
+- Codec EQ
+
+### Recommended Use Cases
+- Testing
+    - For testing displays and laptops
+- Broadcasting
+    - To quickly adapt to changes in your setup
+- Mobile Carts
+    - For handling unknowns on a mobile setup, such as a variety of displays
+
+### NOT RECOMMENDED FOR GENERAL USE
+- Giving this level of access to general user could increase support escalations as a user may not know what is ideal for the hardware available in the space and what resolution to pick. Best for field support.
+
 ## Features
 - Automatically Generates the User Interface
 
@@ -23,7 +44,6 @@ This solution was built primarily for testing different combinations of input an
 - Tracks changes in Video Input and Output Config
     - This is to ensure the User Feedback is always up to date
 - Applies Configuration changes to inputs and outputs on selection
-
 
 ## Installation
 - Download the Resolution-Switcher.js file
